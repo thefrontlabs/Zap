@@ -1,21 +1,46 @@
 # ⚡ Zap Browser  
-### _“Rewriting the web — one peer at a time.”_
+### _"The Browser Where the Node Is You."_  
 
 ---
 
-## What is Zap?
+## 👋 Welcome to the Future of Decentralization
 
-**Zap** is a next-generation web browser built around the power of the **BitTorrent File System (BTFS)**. Unlike traditional browsers, Zap doesn't just *display* the decentralized web — it **runs on it**. At its core, Zap exposes the raw capabilities of BTFS to developers and users alike, allowing them to build, host, and interact with decentralized applications as easily as loading a website.
+**Zap** isn't just another browser — it’s a radical rethinking of what a web browser can be when it runs on a peer-to-peer foundation. Built entirely around **BTFS (BitTorrent File System)**, Zap injects decentralized networking into the browser itself, making every user a fully functional node in the network — not just a visitor.
+
+This is not a plugin. This is not an extension.  
+**This is the decentralized web, baked into the runtime.**
 
 ---
 
-## A New Paradigm for dApps
+## 🚀 Built with One Mission:  
+> To bring **true decentralization** to the web — not just in storage, but in communication, identity, and logic.
 
-Zap introduces a revolutionary development model where BTFS is **directly injected into the browser environment**, exposing clean, composable APIs on the global `window` object.
+Where traditional browsers serve as windows into centralized services and IPFS gateways, **Zap** turns every tab into a **sovereign BTFS node**. This enables a new class of applications where the peer **is** the user, and the **node is the identity**.
 
-### Example Core Interfaces:
+---
+
+## 💡 Reimagining the dApp Stack
+
+With Zap, dApps no longer need to rely on:
+
+- External wallets to authenticate
+- Centralized APIs for messaging
+- Indexers or gateways to find content
+
+Instead, BTFS and its native pub-sub protocols become first-class primitives in your frontend code:
+
 ```js
-window.btfs.createGossipSub("room-id")
-window.btfs.pingPeer("peer-id")
-window.btfs.publish("topic", message)
-window.btfs.fetchFile("btfs://...")
+// Create a gossip chat room
+window.btfs.createGossipSub("open-mic")
+
+// Send a message to peers
+window.btfs.publish("open-mic", "Hello from my node!")
+
+// Ping another peer directly
+window.btfs.pingPeer("QmPeerID123")
+
+// Fetch a file natively
+window.btfs.fetchFile("btfs://Qm...hash")
+
+```
+## The possibilities are endless.
